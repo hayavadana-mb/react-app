@@ -34,7 +34,7 @@ function App() {
     document.body.style.backgroundColor='#0052a5';
     showAlert("dark mode has been enabled","success")
   }
-    else{
+  else{
       setMode('light');
       document.body.style.backgroundColor='white';
       showAlert("light mode has been enabled","success")
@@ -63,3 +63,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
